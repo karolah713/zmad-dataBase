@@ -3,7 +3,7 @@ import config
 import pandas as pd
 import os
 import numpy as np
-from _datetime import date
+from datetime import date
 
 folders = config.folders
 actual_date = date.today()
